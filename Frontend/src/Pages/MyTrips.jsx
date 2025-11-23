@@ -48,7 +48,7 @@ const MyTrips = () => {
                 {userTrips.length>0 ? userTrips.map((trip , idx)=>{
                     return <UserTripCard key={idx} trip={trip}/>
                 }) : (
-                    <>Loading...</>
+                    <>No trips yet — start planning your first one! 🌍</>
                 )}
             </div>
         </div>
