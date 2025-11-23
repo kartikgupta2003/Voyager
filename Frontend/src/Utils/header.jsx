@@ -25,7 +25,7 @@ const Header = () => {
                     }
                 };
 
-                const { data } = await axios.get("http://localhost:8000/api/user/addNew", config);
+                const { data } = await axios.get("https://voyager-i63d.onrender.com/api/user/addNew", config);
 
                 // console.log(data.user);
 

@@ -74,7 +74,7 @@ const CreateTrip = () => {
     }
   };
 
-    const {data} = await axios.get("http://localhost:8000/api/user/addNew" , config);
+    const {data} = await axios.get("https://voyager-i63d.onrender.com/api/user/addNew" , config);
     localStorage.setItem("userInfo" , JSON.stringify(data.user));
 
 
@@ -96,7 +96,7 @@ const CreateTrip = () => {
 
     try {
       setLoading(true);
-      const { data } = await axios.post("http://localhost:8000/api/trip/plan", body, config);
+      const { data } = await axios.post("https://voyager-i63d.onrender.com/api/trip/plan", body, config);
 
       setLoading(false);
       setFormData({
