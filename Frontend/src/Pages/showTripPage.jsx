@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
-import InfoSection from "../TripComponents/infoSection";
+import InfoSection from "../TripComponents/InfoSection";
 import HotelSection from "../TripComponents/HotelSection";
 import Itenarary from "../TripComponents/placesToVisit";
 import Footer from "../TripComponents/Footer";
